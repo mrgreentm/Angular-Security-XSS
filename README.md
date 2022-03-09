@@ -14,7 +14,7 @@ Agora que já sabemos os riscos dessa falha, como podemos explorá-la?
 
 Para o bom funcionamento de aplicações e sistemas em geral, faz-se necessário o compartilhamento de dados entre componentes, serviços e métodos. Dessa forma, para a dinamicidade da aplicação, muitos dados são exibidos do lado do Cliente (no front). Por outro lado, informações do Cliente também são passadas para a aplicação. Diante disso, como podemos garantir que nada que venha do Cliente afete a aplicação? 
 
-Para responder a essa pergunta devemos criar um cenário hipotético, no qual dados inseridos pelo Cliente são exibidos diretamente na tela. Para mostrar essa informação na tela, é necessário acessar a árvore de elementos DOM ( Document Object Model ). Se tal dado for do tipo string, temos que atribuí-lo a um elemento do nosso ( Uma tag HTML ). Dessa forma, temos que acessar a propriedade innerHTML desse elemento e, por fim, atribuir ao innerHTML do elemento, a informação fornecida pelo Cliente. 
+Para responder a essa pergunta devemos criar um cenário hipotético, no qual dados inseridos pelo Cliente são exibidos diretamente na tela. Para mostrar essa informação na tela, é necessário acessar a árvore de elementos DOM ( Document Object Model ). Se tal dado for do tipo string, temos que atribuí-lo a um elemento do nosso DOM ( Uma tag HTML ). Dessa forma, temos que acessar a propriedade innerHTML desse elemento e, por fim, atribuir ao innerHTML do elemento, a informação fornecida pelo Cliente. 
 
 3 - Como o Angular previne essa vúlnerabilidade?
 
