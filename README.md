@@ -18,6 +18,6 @@ Para responder a essa pergunta devemos criar um cenário hipotético, no qual da
 
 3 - Como o Angular previne essa vúlnerabilidade?
 
-A grande problemática está em atribuir ao innerHTML de um elemento as informações passadas pelo Cliente sem uma verificação. Dessa forma, se tal informação conter um método malicioso, toda a aplicação estará em “xeque”. 
+A grande problemática está em atribuir ao innerHTML de um elemento às informações passadas pelo Cliente sem uma verificação. Dessa forma, se tal informação conter um método malicioso, toda a aplicação estará em “xeque”. 
 
 Diante dessa problemática, o Angular disponibiliza métodos nativos que previnem aos ataques do tipo XSS. Além disso, por padrão, o Angular impede que o Cliente insira tags HTML ou métodos JavaScript em inputs. Dessa forma, torna-se mais difícil que uma aplicação Angular esteja vulnerável a ataques do tipo XSS.
