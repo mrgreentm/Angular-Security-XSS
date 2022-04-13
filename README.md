@@ -1,5 +1,5 @@
 # Angular-Security-XSS
-Entenda como funciona a vúlnerabilidade do XSS e como o Angular previne esses ataques.
+Entenda como funciona a vúlnerabilidade do tipo XSS e como o Angular previne esses ataques.
 
 
 Como o Angular previne sua aplicação contra ataques XSS?
